@@ -50,10 +50,6 @@ nav{
   list-style: none;
 }
 
-.services-list-item{        
-  
-}
-
 .services-box{              
   display: inline-block;
   width: 600px;
@@ -78,11 +74,13 @@ nav{
 }
 .article-wrapper{
   text-align: center;
+  text-decoration: none;
 }
 
 .article-item{
   list-style: none;
   text-decoration-line: none;
+
 }
 
 .article-item-link{
@@ -111,4 +109,8 @@ nav{
 
 .site-foot {
   background-color: #222;
+}
+
+.article-item-link {
+  text-decoration-line: none;
 }
