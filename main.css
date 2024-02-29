@@ -1,9 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 nav{
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header {
+  margin-top: 25px;
 }
 
 .nav-list{
-  display: inline-block;
+  display: flex;
+  gap: 50px;
+  margin: auto;
+  
 }
 
 .list-item{
@@ -28,31 +56,67 @@ nav{
 
 .entry-section{
   background-color: #0EB4C1;
+  display: flex;
 }
 
 .entry-content {
+  display: flex;
+  margin-left: 70px;
+  align-items: flex-start;
   color: #fff;
   width: 500px;
-  height: 293px;
+  /* height: 293px; */
   display: inline-block;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.entry-heading {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.entry-text {
+  display: flex;
+  margin-bottom: 15px;
 }
 
 .entry-image {
-  width: 423px;
-  height: 504px;
+  /* display: flex; */
+  display: inline-block;
+  margin-top: 100px;
+  
+}
+
+.services {
+  margin-top: 100px;
+  
 }
 .service-title {
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: #222;
   font-size: 36px;
+  margin-bottom: 100px;
 }
 .services-list{         
   list-style: none;
+  display:flex;
+  flex-direction: column;
 }
 
+.services-list-item {
+  display: flex;
+  
+}
 .services-box{              
   display: inline-block;
   width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
 .services-heading{        
@@ -66,6 +130,10 @@ nav{
 
 .article-hero{
   background-color: #0EB4C1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 50px;
 }
 
 .article-title{
@@ -80,17 +148,30 @@ nav{
 .article-item{
   list-style: none;
   text-decoration-line: none;
+  display: inline-block;
+  margin-top: 20px;
+  
+}
 
+.link {
+  padding: 8px;
+}
+
+.out-link {
+  padding: 8px;
 }
 
 .article-item-link{
   color: #fff;
   border: 2px solid #fff;
   border-radius: 8px;
+  padding: 8px;
 }
 
 .link-box {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-block: 50px 50px ;
 }
 
 .link {
@@ -109,8 +190,20 @@ nav{
 
 .site-foot {
   background-color: #222;
+  display: flex;
 }
 
 .article-item-link {
   text-decoration-line: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px
+  
+}
+
+.footer-pict {
+  margin-left: 60px;
 }
